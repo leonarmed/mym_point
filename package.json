@@ -1,8 +1,20 @@
 {
   "name": "mympoint",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "private": true,
+  "homepage": "https://mympoint.com",
   "dependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/plugin-transform-runtime": "^7.17.0",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "@babel/preset-typescript": "^7.16.7",
+    "@emotion/react": "^11.8.2",
+    "@emotion/styled": "^11.8.1",
+    "@hookform/resolvers": "^2.8.8",
+    "@mui/material": "^5.5.3",
+    "@mui/styled-engine-sc": "^5.5.2",
+    "@react-google-maps/api": "^2.7.0",
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
@@ -10,16 +22,27 @@
     "@types/node": "^16.11.26",
     "@types/react": "^17.0.43",
     "@types/react-dom": "^17.0.14",
+    "nodemon": "^2.0.15",
     "react": "^18.0.0",
+    "react-compare-image": "^3.1.0",
+    "react-custom-share": "^0.4.8",
     "react-dom": "^18.0.0",
+    "react-helmet": "^6.1.0",
+    "react-hook-form": "^7.29.0",
+    "react-query": "^3.34.19",
+    "react-router-dom": "^6.2.2",
     "react-scripts": "5.0.0",
+    "react-share": "^4.4.0",
+    "save": "^2.4.0",
+    "styled-components": "^5.3.5",
     "typescript": "^4.6.3",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "yup": "^0.32.11"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "start": "webpack-dev-server --config webpack.config.dev.js",
+    "build:production": "rimraf dist && webpack --config webpack.config.production.js",
+    "build:staging": "rimraf dist && webpack --config webpack.config.staging.js",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -39,5 +62,21 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@mui/icons-material": "^5.5.1",
+    "@svgr/webpack": "^6.2.1",
+    "@types/node-sass": "^4.11.2",
+    "@types/react-helmet": "^6.1.5",
+    "babel-loader": "^8.2.4",
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.6.0",
+    "node-sass": "^7.0.1",
+    "sass-loader": "^12.6.0",
+    "ts-loader": "^9.2.8",
+    "url-loader": "^4.1.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.8.1"
   }
 }

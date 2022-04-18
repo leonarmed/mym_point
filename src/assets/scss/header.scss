@@ -1,0 +1,56 @@
+.slider-container {
+  height: 100vh;
+  overflow: hidden;
+  z-index: 2;
+  [data-testid="container"] {
+    position: relative;
+    height: 100% !important;
+    border-bottom-left-radius: 70%;
+    z-index: 2;
+  }
+  .shadow1,
+  .shadow2,
+  .shadow3,
+  .shadow4 {
+    background: linear-gradient(
+      0deg,
+      RGB(237 8 237 / 24%),
+      RGB(252 17 235 / 17%)
+    );
+    border-bottom-left-radius: 70%;
+    width: 100%;
+    top: 5px;
+    position: absolute;
+    height: 100%;
+    z-index: 1;
+  }
+  .shadow2 {
+    top: 10px;
+  }
+  .shadow3 {
+    top: 15px;
+  }
+  .shadow4 {
+    background: linear-gradient(
+      0deg,
+      rgba(44, 44, 44, 0.06),
+      rgba(2, 0, 2, 0.6)
+    );
+    top: 20px;
+  }
+
+  .logo-developed {
+    position: absolute;
+    bottom: 2rem;
+    left: 1rem;
+
+    .developedBy {
+      display: flex;
+      align-items: center;
+      margin-top: 20px;
+      :first-child {
+        margin-right: 15px;
+      }
+    }
+  }
+}
