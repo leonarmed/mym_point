@@ -109,7 +109,7 @@ export default function Suggestion() {
                 component="form"
                 role="form"
                 onSubmit={handleSubmit(onSendSubmit)}
-                sx={{width:"50%", margin:"20px auto"}}
+                className="form-container"
             >
                 <Grid container>
                     <Grid item xs={12} p={2}>

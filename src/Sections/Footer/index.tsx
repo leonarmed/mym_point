@@ -16,11 +16,11 @@ export default function index() {
     </Box>
     <Box position={"relative"} marginTop={"-80px"} marginLeft={"20px"}>
         <Grid container className="footer">
-            <Grid item xs={6} sx={{display:"flex", alignItems:"center"}}>
+            <Grid item md={6} sx={{display:"flex", alignItems:"center"}}>
                 <Typography variant='body2'sx={{marginRight:"5px", color:"white"}}>© {year} - <a className="hyperlink" href="https://www.mympoint.com">M&M Point</a> | Developed by </Typography>
                 <img src={GBCWhite} width="90" alt="Global Bridge Connections"/>
             </Grid>
-            <Grid item xs={6} sx={{display:"flex", flexFlow:"column", alignItems:"self-end", paddingRight:"20px", color:"white"}}>
+            <Grid item md={6} sx={{display:"flex", flexFlow:"column", alignItems:"self-end", paddingRight:"20px", color:"white"}} className="slogan-footer">
                 <Typography variant="h4" fontSize={20} p={0}>
                     M&M Point
                 </Typography>

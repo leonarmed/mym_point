@@ -146,6 +146,13 @@
   }
 }
 
+.section{
+  .form-container{
+    width: 50%;
+    margin: 20px auto;
+  }
+}
+
 .footer {
   .hyperlink {
     color: white;
@@ -187,10 +194,10 @@
 
   .logo-developed {
     bottom: 0.5rem !important;
-    left: 1rem !important;
+    left: 0rem !important;
     img {
       &:first-child {
-        width: 100px;
+        width: 85px;
       }
     }
 
@@ -201,9 +208,20 @@
         margin-right: 0px !important;
       }
       img {
-        width: 70px;
+        width: 55px;
       }
     }
+  }
+
+  .section{
+    .form-container{
+      width: 80%;
+      margin: 20px auto;
+    }
+  }
+
+  .slogan-footer{
+    display: none!important; 
   }
 
   .banner-container {

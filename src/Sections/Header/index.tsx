@@ -22,8 +22,8 @@ export default function Header() {
       <Box sx={{
         color: "white",
         zIndex: "11",
-        top:"40%",
-        left:"40%",
+        top:"35%",
+        width:"100%",
         position:"absolute",
         textAlign:"center"
       }}>
