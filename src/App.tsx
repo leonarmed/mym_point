@@ -28,7 +28,7 @@ function App() {
         <Suggestion />
         <Footer />
       </Box>
-      <Box sx={{ transform: 'translateZ(0px)', flexGrow: 1, position: 'fixed', bottom: "55px", right: "55px", zIndex:"11" }}>
+      <Box sx={{ transform: 'translateZ(0px)', flexGrow: 1, position: 'fixed', bottom: "20px", right: "40px", zIndex:"11" }} className="whatsapp-contact">
         <SpeedDial
           ariaLabel="Contacto por Whatsapp"
           icon={<WhatsApp />}

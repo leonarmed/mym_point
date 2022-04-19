@@ -36,7 +36,7 @@
   }
 
   .MuiCard-root {
-    min-height: 485px;
+    min-height: 535px;
 
     .MuiCardHeader-root {
       min-height: 60px;
@@ -178,6 +178,12 @@
   .MuiPaper-root {
     .MuiButton-root {
       font-size: 0.6rem !important;
+    }
+  }
+
+  .main-container{
+    .whatsapp-contact{
+      right: 25px!important;
     }
   }
 }

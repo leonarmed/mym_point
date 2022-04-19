@@ -55,6 +55,14 @@
   }
 }
 
+@media (max-width:425px){
+  .slider-container{
+    .title-header{
+      top:15%!important;
+    }
+  }
+}
+
 @media (max-width:315px){
   .slider-container{
     .logo-developed{

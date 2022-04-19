@@ -11,10 +11,10 @@ export default function Services() {
       <SeparatorColor />
       <div className="banner-container section">
       <Typography variant={"h4"} color="white" >
-        Vinilos con diseños exclusivos
+        Diseños exclusivos
       </Typography>
       <Typography variant={"h6"} color="white" ml={6}> 
-        Tarjetas de Presentación, Flyers, Banners y mucho más
+        en Tarjetas de Presentación, Flyers, Banners, Vinilos y mucho más
       </Typography>
       <Box display="flex" justifyContent="center" >
         <img src={Banner} alt="Servicios de ploteo en Paraguay"/>

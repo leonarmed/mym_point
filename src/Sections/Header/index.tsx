@@ -23,14 +23,12 @@ export default function Header() {
       <Box sx={{
         color: "white",
         zIndex: "11",
-        top:"35%",
+        top:"45%",
         width:"100%",
         position:"absolute",
         textAlign:"center"
-      }}>
-        <Typography variant="h4" fontSize={25} p={0}>
-          M&M Point
-        </Typography>
+      }}
+      className="title-header">
         <Typography variant="h4" fontSize={25} p={0}>
           ¡Más que una librería, un espacio para vos!
         </Typography>
