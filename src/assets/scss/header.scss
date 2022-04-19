@@ -5,7 +5,7 @@
   [data-testid="container"] {
     position: relative;
     height: 100% !important;
-    border-bottom-left-radius: 70%;
+    border-bottom-left-radius: 50rem;
     z-index: 2;
   }
   .shadow1,
@@ -17,7 +17,7 @@
       RGB(237 8 237 / 24%),
       RGB(252 17 235 / 17%)
     );
-    border-bottom-left-radius: 70%;
+    border-bottom-left-radius: 50rem;
     width: 100%;
     top: 5px;
     position: absolute;
@@ -50,6 +50,24 @@
       margin-top: 20px;
       :first-child {
         margin-right: 15px;
+      }
+    }
+  }
+}
+
+@media (max-width:315px){
+  .slider-container{
+    .logo-developed{
+      
+      .developedBy {
+        margin-top: 5px;
+      }
+
+      img{
+        width: 50px;
+        &:first-child {
+          width: 70px;
+        }
       }
     }
   }
