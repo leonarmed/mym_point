@@ -14,6 +14,7 @@ export default function Header() {
         rightImage={Madero}
         sliderPositionPercentage={0.95}
         hover={true}
+        skeleton={<h4>Cargando</h4>}
       />
       <div className="shadow1"></div>
       <div className="shadow2"></div>
