@@ -37,4 +37,4 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ## Integration with API
 
-Only have one integration that is used to send email of client suggestions. Later we spect integrate API of Instagram to show the last publications.
+Only have one integration that is used to send email of client suggestions. Later we expect integrate API of Instagram to show the last publications.
