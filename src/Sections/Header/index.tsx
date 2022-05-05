@@ -1,12 +1,14 @@
-import React from "react";
+import { useEffect, useState } from "react";
 import { Box, Typography } from "@mui/material";
 import ReactCompareImage from "react-compare-image";
+import BackdropLoader from "../../components/BackdropLoader";
 import Galeria from "../../assets/img/galeria.jpg";
 import Madero from "../../assets/img/madero.jpg";
 import Logomym from "../../assets/logo/logo.png"
 import Logogbc from "../../assets/logo/gbc.png"
 
 export default function Header() {
+  
   return (
     <Box className="slider-container">
       <ReactCompareImage
@@ -14,7 +16,7 @@ export default function Header() {
         rightImage={Madero}
         sliderPositionPercentage={0.95}
         hover={true}
-        skeleton={<h4>Cargando</h4>}
+        skeleton={<BackdropLoader/>}
       />
       <div className="shadow1"></div>
       <div className="shadow2"></div>

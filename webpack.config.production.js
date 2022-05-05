@@ -6,7 +6,7 @@ module.exports = merge.merge(common, {
   devtool: "source-map",
   output: {
     path: __dirname + "/dist",
-    publicPath: "/",
+    publicPath: "/site/",
     filename: "[name].[contenthash:8].js",
   },
   optimization: {
