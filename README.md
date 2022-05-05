@@ -37,4 +37,4 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ## Integration with API
 
-    *Only have one integration that is used to send email of client suggestions. This API would receive an object with two string parameters. First is an remitent email and second is an suggestion.*
+**Only have one integration that is used to send email of client suggestions. This API would receive an object with two string parameters. First is an remitent email and second is an suggestion.**
