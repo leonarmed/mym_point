@@ -69,7 +69,7 @@ export default function Suggestion() {
         redirect: 'follow'
         };
 
-        await fetch("https://api-mym.herokuapp.com/api/mail", requestOptions)
+        await fetch("https://mympoint-api.herokuapp.com/api/mail", requestOptions)
         .then(
             response => response.text()
         )
